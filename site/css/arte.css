@@ -11,12 +11,14 @@ button {
   transition: 0.3s;
 }
 #btnPlay {
+  top: 10px; 
   position: fixed;
 }
 
 #btnMusica {
+top: 10px; 
   position: fixed;
-  left: 300px;
+  left: 150px;
 }
 
 button:hover {
