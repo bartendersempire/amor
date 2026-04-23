@@ -242,7 +242,7 @@ button:hover {
         display: block;
         margin: 20px auto !important;
     }
-/* o img nao é */
+/* o img nao é  P tmb */
 p {
         position: static !important;
         width: 85% !important;
@@ -250,6 +250,8 @@ p {
         text-align: center;
     }
 
- 
+  .textig7 {
+        position: static !important;
+    }
 
 }
