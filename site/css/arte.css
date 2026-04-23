@@ -235,11 +235,6 @@ button:hover {
 
 @media (max-width: 768px) {
 
-    body {
-        background: url("../img/3.png") no-repeat center center !important;
-        background-size: cover !important;
-    }
-
     .bg,
     .blur-lateral {
         display: none !important;
