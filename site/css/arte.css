@@ -234,7 +234,7 @@ button:hover {
 /* ============================= */
 @media (max-width: 768px) {
 body {
-    background-size: 170% !important; /* 👈 zoom */
+    background-size: 270% !important; /* 👈 zoom */
 }
   
   .obs {
