@@ -233,7 +233,21 @@ button:hover {
 /* 📱 CORREÇÃO PARA CELULAR */
 /* ============================= */
 @media (max-width: 768px) {
-  
+   .bg,
+    .blur-lateral {
+        display: none !important;
+    }
+
+    .titulo {
+        position: static;
+        text-align: center;
+    }
+
+    .obs {
+        position: static;
+        text-align: center;
+    }
+  /*  img nao é daq pra baixo*/
     img {
         position: static !important;
         width: 60% !important;
@@ -242,7 +256,7 @@ button:hover {
         display: block;
         margin: 20px auto !important;
     }
-/* o img nao é  P tmb */
+
 p {
         position: static !important;
         width: 85% !important;
