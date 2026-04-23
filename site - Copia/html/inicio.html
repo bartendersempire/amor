@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PARABÉNS</title>
+        <link rel="stylesheet" href="../css/arte.css"> 
+    </head>
+    <body>
+        <button onclick="tocarMusica()" id="btnPlay">▶︎ •|၊|။|||။၊|။|||။|||။</button> <button> musica❤️ </button>
+        <audio id="musica" src="../musica/her.mp3"></audio>
+
+        <div class="titulo">
+            <H1>Meus parabéns meu amooor</H1>
+            <p class="p">
+                <b>
+                    Não tive muitas ideias diferentes, mas vim tentar fazer essa surpresa para você,
+                    <br>
+                    usando algo que eu amo fazer para parabenizar alguém que eu AMO
+                </b>
+            </p>
+        </div>
+        
+        <div class="obs">
+            <p>
+                observação, o textinho estará do lado de <br>
+                cada foto e no fim da pagina ❤️
+            </p>
+        </div>
+        
+        <div>
+            <b>
+                <div>
+                    <img class="img2" src="../img/2.jpg">
+                    <p class="textig1">...</p>
+                </div>
+
+                <div>
+                    <img class="img5" src="../img/5.jpg">
+                    <p class="textig2">...</p>
+                </div>
+
+                <div>
+                    <img class="img15" src="../img/15.jpg">
+                    <p class="textig3">...</p>
+                </div>
+
+                <div>
+                    <img class="img16" src="../img/16.jpg">
+                    <p class="textig4">...</p>
+                </div>
+
+                <div>
+                    <img class="img9" src="../img/9.jpg">
+                    <p class="textig5">...</p>
+                </div>
+
+                <div>
+                    <img class="img10" src="../img/10.jpg">
+                    <p class="textig6">...</p>
+                </div>
+
+                <div>
+                    <img class="img13" src="../img/13.jpg">
+                    <p class="textig7">...</p>
+                </div>
+            </b>
+        </div>
+
+        <div class="bg"></div>
+        <div class="blur-lateral"></div>
+
+<script>
+function tocarMusica() {
+  const audio = document.getElementById("musica");
+  const botao = document.getElementById("btnPlay");
+
+  if (audio.paused) {
+    audio.play();
+    botao.textContent = "▐▐";
+  } else {
+    audio.pause();
+    botao.textContent = "▶︎ •|၊|။|||။၊|။|||။|||။";
+  }
+}
+</script>
+    </body>
+</html>
