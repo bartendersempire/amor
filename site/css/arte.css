@@ -245,6 +245,7 @@ button:hover {
   .titulo {
         position: static;
         text-align: center;
+        font-size: 18px;
     }
     img {
         position: static !important;
