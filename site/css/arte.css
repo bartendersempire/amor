@@ -242,7 +242,7 @@ button:hover {
 
     .titulo {
         position: static;
-        margin: 18px;
+        margin: 16px;
     }
 
     .obs {
@@ -252,15 +252,15 @@ button:hover {
 
     img {
         position: static !important;
-        width: 10% !important; /* 👈 diminui aqui */
-        max-width: 150px;       /* 👈 limita tamanho */
+        width: 30% !important; /* 👈 diminui aqui */
+        max-width: 200px;       /* 👈 limita tamanho */
         height: auto !important;
         display: block;
         margin: 20px auto;
     }
     p {
         position: static !important;
-        width: 50% !important;
+        width: 40% !important;
         height: auto !important;
         margin: 10px auto;
         text-align: center;
