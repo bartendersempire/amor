@@ -16,6 +16,7 @@ button {
 
 #btnMusica {
   position: fixed;
+  left: 180px;
 }
 
 button:hover {
@@ -28,7 +29,7 @@ button:hover {
     right: 25%;
     color: rgb(230, 0, 0);
     text-shadow: -2px 1px 1px black;
-    margin: -5%;
+    margin: -3%;
 }
 
 .p{
