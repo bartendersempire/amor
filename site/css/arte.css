@@ -234,38 +234,42 @@ button:hover {
 /* ============================= */
 
 @media (max-width: 768px) {
-  body {
-    background-size: cover !important;
-    background-position: center top !important;
-    background-repeat: no-repeat;
-}
+
+    body {
+        background-size: cover !important;
+        background-position: center top !important;
+        background-repeat: no-repeat;
+    }
 
     .titulo {
         position: static;
-     
+        text-align: center;
     }
 
     .obs {
         position: static;
-   
+        text-align: center;
     }
 
     img {
         position: static !important;
-        width: 50% !important; /* 👈 diminui aqui */
-        max-width: 250px;       /* 👈 limita tamanho */
+        width: 60% !important;
+        max-width: 250px;
         height: auto !important;
         display: block;
-
+        margin: 20px auto; /* 🔥 ISSO CENTRALIZA */
     }
+
     p {
         position: static !important;
-        width: 40% !important;
-        height: auto !important;
-
+        width: 85% !important;  /* 🔥 AUMENTA largura */
+        margin: 10px auto;      /* 🔥 CENTRALIZA */
+        text-align: center;     /* 🔥 deixa bonito */
     }
 
     .textig7 {
         position: static !important;
+    }
+}
     }
 }
