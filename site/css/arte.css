@@ -237,17 +237,17 @@ button:hover {
 
     .titulo {
         position: static;
-        margin: 20px;
+        margin: 18px;
     }
 
     .obs {
         position: static;
-        margin: 20px;
+        margin: 19px;
     }
 
     img {
         position: static !important;
-        width: 80% !important;
+        width: 50% !important;
         height: auto !important;
         display: block;
         margin: 20px auto;
@@ -255,7 +255,7 @@ button:hover {
 
     p {
         position: static !important;
-        width: 90% !important;
+        width: 50% !important;
         height: auto !important;
         margin: 10px auto;
         text-align: center;
