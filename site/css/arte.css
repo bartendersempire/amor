@@ -272,11 +272,6 @@ button:hover {
         position: static !important;
     }
 
-    * {
-        left: auto !important;
-        right: auto !important;
-        top: auto !important;
-        bottom: auto !important;
-    }
+   
 
 }
