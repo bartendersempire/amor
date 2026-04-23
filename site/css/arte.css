@@ -233,20 +233,13 @@ button:hover {
 /* 📱 CORREÇÃO PARA CELULAR */
 /* ============================= */
 @media (max-width: 768px) {
-   .bg,
-    .blur-lateral {
-        display: none !important;
-    }
 
     .titulo {
         position: static;
         text-align: center;
     }
 
-    .obs {
-        position: static;
-        text-align: center;
-    }
+  
   /*  img nao é daq pra baixo*/
     img {
         position: static !important;
