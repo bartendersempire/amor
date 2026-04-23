@@ -234,12 +234,17 @@ button:hover {
 /* ============================= */
 
 @media (max-width: 768px) {
+  .bg,
+.blur-lateral {
+    display: none !important;
+}
 
     body {
-        background-size: cover !important;
-        background-position: center top !important;
-        background-repeat: no-repeat;
-    }
+    background-image: url("../img/3.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+}
 
     .titulo {
         position: static;
