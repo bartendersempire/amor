@@ -1,4 +1,7 @@
 @charset "UTF-8";
+body {
+    padding-top: 100px; /* 👈 espaço pros botões */
+}
 button {
 
   padding: 15px 30px;
