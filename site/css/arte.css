@@ -233,14 +233,7 @@ button:hover {
 /* 📱 CORREÇÃO PARA CELULAR */
 /* ============================= */
 @media (max-width: 768px) {
-  body {
-    background: url("../img/3.png") no-repeat center center !important;
-    background-size: cover !important;
-}
-    .bg,
-    .blur-lateral {
-        display: none !important;
-    }
+
 
     .titulo {
         position: static;
@@ -251,15 +244,7 @@ button:hover {
         position: static;
         text-align: center;
     }
-
-    img {
-        position: static !important;
-        width: 60% !important;
-        max-width: 250px;
-        height: auto !important;
-        display: block;
-        margin: 20px auto !important;
-    }
+s
 
     p {
         position: static !important;
