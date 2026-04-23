@@ -234,6 +234,11 @@ button:hover {
 /* ============================= */
 
 @media (max-width: 768px) {
+  body {
+    background-size: cover !important;
+    background-position: center top !important;
+    background-repeat: no-repeat;
+}
 
     .titulo {
         position: static;
@@ -247,12 +252,12 @@ button:hover {
 
     img {
         position: static !important;
-        width: 50% !important;
+        width: 60% !important; /* 👈 diminui aqui */
+        max-width: 250px;       /* 👈 limita tamanho */
         height: auto !important;
         display: block;
         margin: 20px auto;
     }
-
     p {
         position: static !important;
         width: 50% !important;
