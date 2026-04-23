@@ -233,7 +233,15 @@ button:hover {
 /* 📱 CORREÇÃO PARA CELULAR */
 /* ============================= */
 @media (max-width: 768px) {
-  
+    img {
+        position: static !important;
+        width: 60% !important;
+        max-width: 250px;
+        height: auto !important;
+        display: block;
+        margin: 20px auto !important;
+    }
+
 
  
 
