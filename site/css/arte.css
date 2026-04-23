@@ -238,7 +238,7 @@ button:hover {
   .obs {
         position: static;
         text-align: center;
-        margin: 10px auto !important;
+         margin-top: 30px;
     }
   
   /*  img nao é daq pra baixo*/
