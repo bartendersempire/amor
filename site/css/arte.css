@@ -233,31 +233,15 @@ button:hover {
 /* 📱 CORREÇÃO PARA CELULAR */
 /* ============================= */
 @media (max-width: 768px) {
-  
-      .bg,
-    .blur-lateral {
-        display: none !important;
-    }
-
-    .titulo {
-        position: static;
-        text-align: center;
-    }
-
-    .obs {
-        position: static;
-        text-align: center;
-    }
-
-    img {
+      img {
         position: static !important;
-        width: 30% !important;
+        width: 60% !important;
         max-width: 250px;
         height: auto !important;
         display: block;
         margin: 20px auto !important;
     }
-   
+
     p {
         position: static !important;
         width: 85% !important;
@@ -269,5 +253,11 @@ button:hover {
         position: static !important;
     }
 
+    * {
+        left: auto !important;
+        right: auto !important;
+        top: auto !important;
+        bottom: auto !important;
+    }
 
 }
