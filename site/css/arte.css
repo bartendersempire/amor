@@ -242,12 +242,12 @@ button:hover {
 
     .titulo {
         position: static;
-        margin: 16px;
+     
     }
 
     .obs {
         position: static;
-        margin: 19px;
+   
     }
 
     img {
@@ -256,18 +256,16 @@ button:hover {
         max-width: 250px;       /* 👈 limita tamanho */
         height: auto !important;
         display: block;
-        margin: 20px auto;
+
     }
     p {
         position: static !important;
         width: 40% !important;
         height: auto !important;
-        margin: 10px auto;
-        text-align: center;
+
     }
 
     .textig7 {
         position: static !important;
-        margin-bottom: 50px;
     }
 }
