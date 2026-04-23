@@ -252,8 +252,8 @@ button:hover {
 
     img {
         position: static !important;
-        width: 60% !important; /* 👈 diminui aqui */
-        max-width: 250px;       /* 👈 limita tamanho */
+        width: 10% !important; /* 👈 diminui aqui */
+        max-width: 150px;       /* 👈 limita tamanho */
         height: auto !important;
         display: block;
         margin: 20px auto;
