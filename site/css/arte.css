@@ -234,13 +234,17 @@ button:hover {
 /* ============================= */
 @media (max-width: 768px) {
 
-    .titulo {
+  
+  .obs {
         position: static;
         text-align: center;
     }
-
   
   /*  img nao é daq pra baixo*/
+  .titulo {
+        position: static;
+        text-align: center;
+    }
     img {
         position: static !important;
         width: 60% !important;
