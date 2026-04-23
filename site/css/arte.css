@@ -234,15 +234,10 @@ button:hover {
 /* ============================= */
 @media (max-width: 768px) {
   
-    img {
-        position: static !important;
-        width: 60% !important;
-        max-width: 250px;
-        height: auto !important;
-        display: block;
-        margin: 20px auto !important;
+      .bg,
+    .blur-lateral {
+        display: none !important;
     }
-
 
     .titulo {
         position: static;
@@ -253,8 +248,16 @@ button:hover {
         position: static;
         text-align: center;
     }
-s
 
+    img {
+        position: static !important;
+        width: 60% !important;
+        max-width: 250px;
+        height: auto !important;
+        display: block;
+        margin: 20px auto !important;
+    }
+   
     p {
         position: static !important;
         width: 85% !important;
