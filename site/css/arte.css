@@ -233,7 +233,9 @@ button:hover {
 /* 📱 CORREÇÃO PARA CELULAR */
 /* ============================= */
 @media (max-width: 768px) {
-
+body {
+    background-size: 130% !important; /* 👈 zoom */
+}
   
   .obs {
         position: static;
