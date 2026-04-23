@@ -1,6 +1,6 @@
 @charset "UTF-8";
 button {
-  position:fixed;
+
   padding: 15px 30px;
   font-size: 18px;
   background: hsl(229, 84%, 45%);
@@ -9,6 +9,13 @@ button {
   color: white;
   cursor: pointer;
   transition: 0.3s;
+}
+#btnPlay {
+  position: fixed;
+}
+
+#btnMusica {
+  position: fixed;
 }
 
 button:hover {
